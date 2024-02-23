@@ -1,0 +1,22 @@
+{
+    "name": "fico7489/symfony-es-persistence-bundle",
+    "description": "Provides an events for persistence",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Filip Horvat",
+            "email": "fico7489@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/doctrine-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-4": { "SymfonyEs\\Bundle\\PersistenceBundle\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}

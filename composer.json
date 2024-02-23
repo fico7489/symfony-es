@@ -1,0 +1,26 @@
+{
+    "name": "fico7489/symfony-es",
+    "description": "The SymfonyEs for Symfony PHP framework",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/symfony-es2/symfony-es",
+    "authors": [
+        {
+            "name": "Filip Horvat",
+            "email": "fico7489@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SymfonyEs\\Bundle\\": "src/SymfonyEs/Bundle/"
+        },
+        "exclude-from-classmap": [
+            "**/Tests/"
+        ]
+    },
+    "replace": {
+        "fico7489/symfony-es-persistence-bundle": "self.version"
+    }
+}

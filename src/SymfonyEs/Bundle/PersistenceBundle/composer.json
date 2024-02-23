@@ -18,5 +18,11 @@
             "/Tests/"
         ]
     },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false,
+            "symfony/runtime": true
+        }
+    },
     "minimum-stability": "dev"
 }

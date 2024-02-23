@@ -1,7 +1,7 @@
 {
     "name": "fico7489/symfony-es-persistence-bundle",
     "description": "Provides an events for persistence",
-    "type": "library",
+    "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {

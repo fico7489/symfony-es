@@ -1,0 +1,3 @@
+[submodule "symfony-es-persistence-bundle"]
+	path = symfony-es-persistence-bundle
+	url = https://github.com/fico7489/symfony-es-persistence-bundle
